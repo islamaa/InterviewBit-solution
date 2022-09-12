@@ -1,0 +1,13 @@
+vector<int>solution::getRow<A>{
+vector<int>r(A+1);
+r[0]=1;
+int a=1;
+for(int i=1;i<=A;i++){
+a=(a*(A-i+1)/i);
+r[0]=a;
+
+
+
+}
+return r;
+}
